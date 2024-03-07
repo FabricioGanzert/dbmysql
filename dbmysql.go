@@ -2,6 +2,6 @@ package dbmysql
 
 import "fmt"
 
-func Hello() {
-	fmt.Println("Hello, World!!!")
+func initDb() {
+	fmt.Println("DB init")
 }
